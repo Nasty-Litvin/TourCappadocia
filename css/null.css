@@ -4,6 +4,12 @@
 	font-style: normal;
 	font-weight: 400;
 }
+@font-face {
+	font-family: Balgis;
+	src: url(../fonts/Balgis/Balqis.ttf);
+	font-style: normal;
+	font-weight: 400;
+}
 /*Обнуление*/
 *{
 	padding: 0;
