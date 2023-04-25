@@ -1,0 +1,53 @@
+header {
+  background: url(../img/fon_header.png) 0 0/contain no-repeat;
+  width: 100%;
+}
+.container_header {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 72px 360px 564px 360px;
+}
+.menu_contact {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_nav {
+}
+.menu_ul {
+  display: flex;
+}
+.menu_li {
+}
+.menu_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.contact {
+  display: flex;
+}
+.contact_img {
+}
+.contact_tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.header_title {
+  font-family: "Balqis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 334px;
+
+  color: #000000;
+  margin-top: 152px;
+}
