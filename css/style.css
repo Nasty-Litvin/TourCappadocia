@@ -48,6 +48,18 @@ header {
   color: #000000;
   margin-top: 152px;
 }
+.fairy_tail {
+  position: relative;
+  display: flex;
+}
+.fairy_tail_img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.fairy_tail_conteiner {
+padding: 0 0 0 1015px;
+}
 .fairy_tail_title,
 .our_trip_title,
 .hotel_title,
@@ -61,7 +73,8 @@ header {
 }
 .fairy_tail_p,
 .our_trip_p,
-.hotel_p {
+.hotel_p,
+.price_p {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 300;
@@ -126,6 +139,23 @@ header {
   display: flex;
 }
 .hotel_description_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.price_description_text_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.price_description_text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
