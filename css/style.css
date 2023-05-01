@@ -2,174 +2,33 @@
   min-height: 100%;
   overflow: hidden;
 }
-._container {
+/*-------------------------------*/
+.container {
   max-width: 1200px;
   margin: 0px auto;
 }
-
-
-header {
-  background: url(../img/fon_header.png) 0 0/100% auto no-repeat;
-}
-.container_header {
-  width: 1920px;
-  margin: 0 auto;
-  padding: 72px 360px 564px 360px;
-}
-.menu_contact {
-  display: flex;
-  justify-content: space-between;
-}
-.menu_nav {
-}
-.menu_ul {
-  display: flex;
-}
-.menu_li {
-}
-.menu_link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #000000;
-}
-.contact {
-  display: flex;
-}
-.contact_img {
-}
-.contact_tel {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-}
-.header_title {
-  font-family: "Balqis";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 250px;
-  line-height: 334px;
-  color: #000000;
-  margin-top: 152px;
-}
-.fairy_tail {
-  position: relative;
-  display: flex;
-}
-.fairy_tail_img {
+/*-------------------------------*/
+.header {
   position: absolute;
+  max-width: 100%;
   left: 0;
   top: 0;
+  z-index: 50;
 }
-.fairy_tail_conteiner {
-padding: 0 0 0 1015px;
-}
-.fairy_tail_title,
-.our_trip_title,
-.hotel_title,
-.price_title {
-  font-family: "Balqis";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 128px;
-  color: #e2ab3f;
-}
-.fairy_tail_p,
-.our_trip_p,
-.hotel_p,
-.price_p {
-  font-family: "Roboto";
-  font-style: italic;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-}
-.fairy_tail_content {
-  display: flex;
-}
-.fairy_tail_description {
-}
-.fairy_tail_description_text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-}
-.fairy_tail_description_text_title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-}
+.header__container {
 
-.our_trip_content {
   display: flex;
-}
-.our_trip_description_text_title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  min-height: 172px;
+  align-items: center;
   color: #000000;
 }
-.our_trip_description_text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
+.header__menu {
 }
-.our_trip_to_book {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-  width: 280px;
-  background: #ffffff;
-  border: 1px solid #e2ab3f;
-  padding: 11px 53px;
+.menu {
 }
-.hotel_content {
-  display: flex;
+.menu__list {
 }
-.hotel_description_text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
+.menu__item {
 }
-.price_description_text_title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #000000;
-}
-.price_description_text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
+.menu__link {
 }
