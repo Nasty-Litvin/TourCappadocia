@@ -1,21 +1,10 @@
 @font-face {
-	font-family: Roboto;
-	src: url(../fonts/Roboto/RobotoCondensed-Regular.ttf);
-	font-style: normal;
-	font-weight: 400;
-}
-@font-face {
-	font-family: Roboto;
-	src: url(../fonts/Roboto/RobotoCondensed-LightItalic.ttf);
-	font-style: normal;
-	font-weight: 300;
-}
-@font-face {
 	font-family: Balqis;
 	src: url(../fonts/Balgis/Balqis.ttf);
 	font-style: normal;
 	font-weight: 400;
 }
+
 /*Обнуление*/
 *{
 	padding: 0;
