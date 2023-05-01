@@ -1,34 +1,87 @@
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 /*-------------------------------*/
-.container {
+._container {
   max-width: 1200px;
   margin: 0px auto;
+  box-sizing: content-box;
+}
+._ibg {
+  position: relative;
+}
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 /*-------------------------------*/
 .header {
-  position: absolute;
+  /* position: absolute; */
   max-width: 100%;
-  left: 0;
-  top: 0;
+  /* left: 0;
+  top: 0; */
   z-index: 50;
 }
 .header__container {
-
+  padding: 0 20px;
   display: flex;
+  justify-content: space-between;
   min-height: 172px;
   align-items: center;
   color: #000000;
 }
 .header__menu {
 }
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
+}
 .menu {
+  padding: 5px 0; /*отступ безопасности*/
 }
 .menu__list {
+  display: flex;
+  flex-wrap: wrap;
 }
 .menu__item {
 }
+.menu__item:not(:last-child) {
+  margin: 0 52px 0 0;
+}
 .menu__link {
+  color: #000000;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+/*-------------------------------*/
+.page {
+  flex: 1 1 auto;
+}
+.page__main-block {
+}
+.main-block {
+  position: relative;
+}
+.main-block__container {
+}
+.main-block__title {
+  font-family: "Balqis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 334px;
+  color: #000000;
+}
+/*-------------------------------*/
+.footer {
 }
