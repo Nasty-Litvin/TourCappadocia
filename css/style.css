@@ -1,3 +1,42 @@
+/*Обнуление*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 18px;
+  color: #000;
+  font-family: Roboto;
+  font-weight: 300;
+}
+/*-------------------------*/
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -8,12 +47,13 @@
 ._container {
   max-width: 1200px;
   margin: 0px auto;
+  padding: 0 15px;
   box-sizing: content-box;
 }
 ._ibg {
   position: relative;
 }
-._ibg img {
+.ibg img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -23,19 +63,17 @@
 }
 /*-------------------------------*/
 .header {
-  /* position: absolute; */
-  max-width: 100%;
-  /* left: 0;
-  top: 0; */
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
   z-index: 50;
 }
 .header__container {
-  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   min-height: 172px;
   align-items: center;
-  color: #000000;
 }
 .header__menu {
 }
@@ -74,6 +112,10 @@
 }
 .main-block__container {
 }
+.main-block__body {
+  position: relative;
+  z-index: 2;
+}
 .main-block__title {
   font-family: "Balqis";
   font-style: normal;
@@ -81,6 +123,13 @@
   font-size: 250px;
   line-height: 334px;
   color: #000000;
+}
+.main-block__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 /*-------------------------------*/
 .footer {
